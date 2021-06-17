@@ -86,7 +86,8 @@ class TrafficSimulator:
         self.control_interval_sec = config.getint('control_interval_sec')
         self.yellow_interval_sec = config.getint('yellow_interval_sec')
         self.episode_length_sec = config.getint('episode_length_sec')
-        self.T = np.ceil(self.episode_length_sec / self.control_interval_sec)
+        #self.T = np.ceil(self.episode_length_sec / self.control_interval_sec)
+        self.T= self.control_interval_sec
         self.port = DEFAULT_PORT + port
         self.sim_thread = port
         self.obj = config.get('objective')
@@ -582,7 +583,7 @@ class TrafficSimulator:
             action_r = ','.join(['%d' % a for a in action])
             cur_control = {'episode': self.cur_episode,
                            'time_sec': self.cur_sec,
-                           'step': self.cur_sec / self.control_interval_sec,
+                           'step': self.cur_sec / self.control_interval_sec, #rest_interval_sec, #MODIFIED HERE
                            'action': action_r,
                            'reward': global_reward}
             self.control_data.append(cur_control)

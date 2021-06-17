@@ -1,0 +1,65 @@
+<additional>
+  <laneAreaDetector file="ild.out" freq="1" id="W2TL_0" lane="W2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="W2TL_1" lane="W2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="W2TL_2" lane="W2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="W2TL_3" lane="W2TL_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2W_0" lane="TL2W_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2W_1" lane="TL2W_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2W_2" lane="TL2W_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2W_3" lane="TL2W_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="N2TL_0" lane="N2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="N2TL_1" lane="N2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="N2TL_2" lane="N2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="N2TL_3" lane="N2TL_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2N_0" lane="TL2N_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2N_1" lane="TL2N_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2N_2" lane="TL2N_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2N_3" lane="TL2N_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="S2TL_0" lane="S2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="S2TL_1" lane="S2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="S2TL_2" lane="S2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="S2TL_3" lane="S2TL_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2S_0" lane="TL2S_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2S_1" lane="TL2S_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2S_2" lane="TL2S_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2S_3" lane="TL2S_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2W_0" lane="2_TL2W_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2W_1" lane="2_TL2W_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2W_2" lane="2_TL2W_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2W_3" lane="2_TL2W_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2E_0" lane="TL2E_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2E_1" lane="TL2E_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2E_2" lane="TL2E_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="TL2E_3" lane="TL2E_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2N_0" lane="2_TL2N_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2N_1" lane="2_TL2N_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2N_2" lane="2_TL2N_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2N_3" lane="2_TL2N_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_N2TL_0" lane="2_N2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_N2TL_1" lane="2_N2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_N2TL_2" lane="2_N2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_N2TL_3" lane="2_N2TL_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2S_0" lane="2_TL2S_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2S_1" lane="2_TL2S_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2S_2" lane="2_TL2S_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2S_3" lane="2_TL2S_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_S2TL_0" lane="2_S2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_S2TL_1" lane="2_S2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_S2TL_2" lane="2_S2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_S2TL_3" lane="2_S2TL_3" pos="-50" endPos="-1"/>
+
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2E_0" lane="2_TL2E_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2E_1" lane="2_TL2E_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2E_2" lane="2_TL2E_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_TL2E_3" lane="2_TL2E_3" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_E2TL_0" lane="2_E2TL_0" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_E2TL_1" lane="2_E2TL_1" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_E2TL_2" lane="2_E2TL_2" pos="-50" endPos="-1"/>
+  <laneAreaDetector file="ild.out" freq="1" id="2_E2TL_3" lane="2_E2TL_3" pos="-50" endPos="-1"/>
+
+</additional>

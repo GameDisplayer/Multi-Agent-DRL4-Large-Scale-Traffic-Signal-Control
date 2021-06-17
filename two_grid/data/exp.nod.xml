@@ -1,0 +1,12 @@
+<nodes>
+  <node id="TL" x="-750.00" y="0.00" type="traffic_light"/>
+  <node id="2_TL" x="750.00" y="0.00" type="traffic_light"/>
+  
+  <node id="DW" x="-1500.00" y="0.00" type="priority"/>
+  <node id="DN" x="-750.00" y="750.00" type="priority"/>
+  <node id="DS" x="-750.00" y="-750.00" type="priority"/>
+  <node id="2_DN" x="750.00" y="750.00" type="priority"/>
+  <node id="DE" x="1500.00" y="0.00" type="priority"/>
+  <node id="2_DS" x="750.00" y="-750.00" type="priority"/>
+ 
+</nodes>

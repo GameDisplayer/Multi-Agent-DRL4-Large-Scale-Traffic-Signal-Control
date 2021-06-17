@@ -15,7 +15,7 @@ def check_dir(cur_dir):
 
 
 def copy_file(src_dir, tar_dir):
-    cmd = 'cp %s %s' % (src_dir, tar_dir)
+    cmd = 'cp -r %s %s' % (src_dir, tar_dir)
     subprocess.check_call(cmd, shell=True)
 
 
@@ -118,7 +118,7 @@ class Trainer():
         self.n_step = self.model.n_step
         self.summary_writer = summary_writer
         self.run_test = run_test
-        assert self.env.T % self.n_step == 0
+        #assert self.env.T % self.n_step == 0
         self.data = []
         self.output_path = output_path
         if run_test:

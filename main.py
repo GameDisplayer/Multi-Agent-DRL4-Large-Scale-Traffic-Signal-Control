@@ -9,6 +9,7 @@ import logging
 import tensorflow as tf
 import threading
 # from envs.test_env import GymEnv
+from envs.two_grid_env import TwoGridEnv, TwoGridController
 from envs.small_grid_env import SmallGridEnv, SmallGridController
 from envs.large_grid_env import LargeGridEnv, LargeGridController
 from envs.real_net_env import RealNetEnv, RealNetController
@@ -49,7 +50,14 @@ def parse_args():
 
 
 def init_env(config, port=0, naive_policy=False):
-    if config.get('scenario') == 'small_grid':
+    if config.get('scenario') == 'two_grid':
+        if not naive_policy:
+            return TwoGridEnv(config, port=port)
+        else:
+            env = TwoGridEnv(config, port=port)
+            policy = TwoGridEnv(config, port=port)
+            return env, policy
+    elif config.get('scenario') == 'small_grid':
         if not naive_policy:
             return SmallGridEnv(config, port=port)
         else:
@@ -86,7 +94,7 @@ def train(args):
     config_dir = args.config_dir
     copy_file(config_dir, dirs['data'])
     config = configparser.ConfigParser()
-    config.read(config_dir)
+    config.read("config_dir/config_ia2c_two.ini")
     in_test, post_test = init_test_flag(args.test_mode)
 
     # init env
@@ -161,7 +169,7 @@ def evaluate_fn(agent_dir, output_dir, seeds, port, demo, policy_type):
         logging.error('Evaluation: %s does not exist!' % agent)
         return
     # load config file for env
-    config_dir = find_file(agent_dir + '/data/')
+    config_dir = find_file(agent_dir + '/data/config_dir')
     if not config_dir:
         return
     config = configparser.ConfigParser()
