@@ -2,3 +2,7 @@
 __pycache__/
 
 *.out
+
+two_grid/data/exp.rou.xml
+
+base_dir
