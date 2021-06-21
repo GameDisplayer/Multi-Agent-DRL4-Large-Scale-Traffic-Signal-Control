@@ -29,6 +29,20 @@ Required packages can be installed by running `setup_mac.sh` or `setup_ubuntu.sh
 
 Attention: the code on master branch is for SUMO version >= 1.1.0. Please go to branch [sumo-0.32.0](https://github.com/cts198859/deeprl_signal_control/tree/sumo-0.32.0) if you are using the old SUMO version.
 
+## Docker 
+
+Follow this steps to dockerize your experiments:
+
+1. Build the image :
+  ```docker build -t [the_name_you_want] .```
+
+2. Run the container with this command line : 
+  ```docker run --rm -it -v $PWD\Multi-Agent-DRL4-Large-Scale-Traffic-Signal-Control:/launch [the_name_you_want]```
+  
+  *Note:* To open the SUMO GUI, on **Windows** you could [download VcXsrv](https://sourceforge.net/projects/vcxsrv/) and, instead, run :
+  
+  ```docker run --rm -it -v $PWD\Multi-Agent-DRL4-Large-Scale-Traffic-Signal-Control:/launch -e DISPLAY=host.docker.internal:0 [the_name_you_want]```
+
 ## Usages
 First define all hyperparameters in a config file under `[config_dir]`, and create the base directory of experiements `[base_dir]`. Before training, please call `build_file.py` under `[environment_dir]/data/` to generate SUMO network files for `small_grid` and `large_grid` environments.
 
